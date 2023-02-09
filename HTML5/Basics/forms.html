@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Example</title>
+</head>
+<body>
+    <h2>Students registration form</h2>
+    <form action="any_backend_code">
+        <div>
+            <label for="st_name">Student Name</label>
+            <input type="text" name="st_name" placeholder="Enter your Name">
+        </div>
+        <br>
+        <div>
+            Studnet Age: <input type="number" name="st_age" id="" placeholder="Enter your Age">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="st_email" id="" placeholder="Enter your Email">
+        </div>
+        <br>
+        <div>
+            Password: <input type="password" name="st_password" id="" placeholder="Enter your Password">
+            <br>
+            <br>
+            Reenter Password: <input type="password" name="st_password" id="" placeholder="Enter your Password">
+        </div>
+        <br>
+        <div>
+            Are you 18 Year Old: <input type="checkbox" name="st_eligible" id="">
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio" name="st_gender" id=""> 
+            Female<input type="radio" name="st_gender" id="">
+            Other<input type="radio" name="st_gender" id="">
+        </div>
+        <br>
+        <div>
+            Date of Birth: <input type="date" name="st_dob" id="" placeholder="Enter your DOB">
+        </div>
+        <br>
+        <div>
+            About You: <br> <textarea name="st_dec" id="" cols="40" rows="20"></textarea>
+
+        </div>
+        <br>
+        <div>
+            Enter you Expected Salary: <input type="range" name="st_salary" id="">
+        </div>
+        <br>
+        <div>
+            Qualification: <select name="st_qualification" id="">
+                <option value="Post Graduate">Post Graduate</option>
+                <option value="Graduate">Graduate</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="High School">High School</option>
+            </select>
+        </div>
+        <br>
+        <hr>
+        <div>
+
+            <input type="submit" name="submit form" id="">
+            <input type="reset" name="Reset form" id="">
+        </div>
+        <br>
+        <div>
+            <label for="st_upload">Upload Resume</label>
+            <input type="file" name="st_upload" id="">
+        </div>
+    </form>
+</body>
+</html>
